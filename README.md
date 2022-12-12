@@ -23,7 +23,8 @@ The is deployed over [Render](https://render.com/) and can be viewed here - http
 3. A user is allowed to change the batch, but it comes into affect only after the current month. To handle this test case a field `end_date` is present for each user. **User can change his batch, but it will only affect his next batch** *(Except for the first time, when he needs to set the current batch)*.
 
 ### ER Diagram
-![ER-Diagram](images/ER_Diagram.jpeg)
+Image upload on Github is not working, so I have uploaded the ER-Diagram as pdf into the repository.
+You can find the PDF - 
 
 ### Front-end Pages
 The app constitutes of following front-end pages that help user to work inside the app-
