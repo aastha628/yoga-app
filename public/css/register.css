@@ -2,11 +2,16 @@ body {
   margin: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+html, body { height: 100%; }
 
 .register-container {
   text-align: center;
-  margin: 5em auto;
+  margin: auto;
   display: flex;
   flex-direction: column;
   width: fit-content;
