@@ -5,12 +5,11 @@ const morgan = require("morgan")
 const batchRouter = require("./api/routes/batch");
 const userRouter = require("./api/routes/users");
 const paymentRouter = require("./api/routes/payment");
-require("dotenv").config();
 
 app.use(express.json());
 app.use(morgan('dev'));
 
-const { connectDb } = require("./utils/dbConnection");
+const {connectDb}=require("./utils/dbConnection");
 connectDb();
 
 app.use("/api/user", userRouter);
