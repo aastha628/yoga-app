@@ -1,0 +1,41 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main { 
+  width: 75%; 
+  margin: 2em auto;
+}
+
+main>h1 { text-align: center; }
+
+.container {
+  width: fit-content;
+  margin: 1em auto;
+  border: 1px solid #a0a0a0;
+  border-radius: 4px;
+}
+.container > h4 {
+  padding: 3px 0px 2px 12px;
+  margin: 0;
+  text-align: start;
+  border-bottom: 0.5px solid #a0a0a0;
+  color: #006fb6;
+}
+
+table { 
+  padding: 1em 2em;
+  text-align: center;
+}
+
+.table-field {
+  color: #a0a0a0;
+  padding: 0.5em;
+  padding-right: 1.5em;
+  text-align: end;
+}
+.table-value { text-align: start; }
+
+table button { margin-top: 2em; }

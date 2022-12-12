@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment | Yoga App</title>
+    <link rel="stylesheet" href="css/payment.css">
+  </head>
+  <body>
+    <main>
+      <h1>Make Payment</h1>
+      <div class="container">
+        <h4>Pay your monthly fees</h4>
+        <table>
+          <tr>
+            <td class="table-field">Card Holder Name</td>
+            <td class="table-value">
+              <input type="text" value="John Doe" disabled>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-field">Card Number</td>
+            <td class="table-value">
+              <input type="text" value="1234 XXXX XXXX 5678" style="font-family: monospace;" disabled>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-field">CVV</td>
+            <td class="table-value">
+              <input type="text" value="XXX" style="font-family: monospace;" disabled>
+            </td>
+          </tr>
+          <tr>
+            <td class="table-field">Amount</td>
+            <td class="table-value">
+              <input type="number" value="500" style="font-family: monospace;" disabled>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2"><button onclick="makePayment()">Pay Now</button></td>
+          </tr>
+        </table>
+      </div>
+    </main>
+    <script src="js/payment.js"></script>
+  </body>
+</html>

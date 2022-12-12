@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Yoga App</title>
+  <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+  <div class="login-container">
+    <h4>Login on Yoga-App</h4>
+    <form onsubmit="onFormSubmit(event)">
+      <table style="margin: 1em 1em;">
+        <tr>
+          <td class="table-field"><label for="email">Email</label></td>
+          <td class="table-value"><input type="email" name="email" id="email" placeholder="john@doe.com"></td>
+        </tr>
+        <tr>
+          <td class="table-field"><label for="password">Password</label></td>
+          <td class="table-value"><input type="password" name="password" id="password"></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <p class="caption">Do not have an account? <a href="/register">Register</a></p>
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2"><button type="submit">Submit</button></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+  <script src="js/login.js"></script>
+</body>
+
+</html>

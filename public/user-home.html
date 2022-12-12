@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Yoga App</title>
+  <link rel="stylesheet" href="css/user-home.css">
+</head>
+
+<body>
+  <main>
+    <h1>User Dashboard</h1>
+    <button id="logout" onclick="logoutUser()">Logout</button>
+    <div class="content">
+      <div class="user-details">
+        <h4>User Details</h4>
+        <table>
+          <tr>
+            <td class="table-field">Name</td>
+            <td class="table-value" id="name">-</td>
+          </tr>
+          <tr>
+            <td class="table-field">Email</td>
+            <td class="table-value" id="email">-</td>
+          </tr>
+          <tr>
+            <td class="table-field">Gender</td>
+            <td class="table-value" id="gender">-</td>
+          </tr>
+          <tr>
+            <td class="table-field">Due Date</td>
+            <td class="table-value" id="dueDate">-</td>
+          </tr>
+          <tr>
+            <td colspan="2"><button onclick="onPaymentClicked()">Make Payment</button></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="live-class">
+        <h2 id="liveClassHeading">Live Class</h2>
+        <p id="liveClassText"></p>
+      </div>
+
+      <div class="batch-details">
+        <h4>Batch Details</h4>
+        <table>
+          <tr>
+            <td class="table-field">Current</td>
+            <td class="table-value" id="currentBatch">-</td>
+          </tr>
+          <tr>
+            <td class="table-field">Next</td>
+            <td class="table-value" id="nextBatch">-</td>
+          </tr>
+          <tr>
+            <td colspan="2"><button onclick="onSelectBatchClicked()">Change Batch</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </main>
+  <script src="js/user-home.js"></script>
+</body>
+
+</html>

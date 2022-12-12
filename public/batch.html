@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Available Batches</title>
+  <link rel="stylesheet" href="css/batch.css">
+</head>
+
+<body>
+  <!-- Batches details -->
+  <div class="batches">
+    <h1>Available Batches</h1>
+    <div id="select-batch">
+      <label for="batch">Select Batch: </label>
+      <select name="batch" id="batch"></select>
+      <br>
+      <button onclick="changeBatch()">Save</button>
+    </div>
+    <div class="batches-grid" id="batches-grid"></div>
+  </div>
+
+  <script src="js/batch.js"></script>
+</body>
+
+</html>
